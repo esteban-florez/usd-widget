@@ -1,8 +1,8 @@
 {
   "name": "usd-widget",
-  "productName": "usd-widget",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "productName": "el dola",
+  "version": "1.0.1",
+  "description": "a cuanto ta el dolar?",
   "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": {
-    "name": "esteban-florez",
+    "name": "Esteban Florez",
     "email": "eflorez077@gmail.com"
   },
   "license": "MIT",
@@ -37,7 +37,6 @@
     "typescript": "~4.5.4"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0",
-    "rpmbuild": "^0.0.23"
+    "electron-squirrel-startup": "^1.0.0"
   }
 }
