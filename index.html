@@ -3,11 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <title>Hello World!</title>
-
   </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+  <body class="bg-black text-white h-screen flex flex-col justify-center">
+    <div class="w-full">
+      <header class="flex flex-col w-full items-center mb-4">
+        <h1 class="text-center text-2xl">cuanto ta el dolar</h1>
+        <small class="-mt-1">by tkcfamily</small>
+      </header>
+      <main class="p-4">
+        <section class="grid place-items-center">
+          <p class="animate-spin col-span-2 mt-8 mb-12">Cargando...</p>
+        </section>
+      </main>
+    </div>
     <script type="module" src="/src/renderer.ts"></script>
+    <script type="module" src="/src/usd.ts"></script>
   </body>
 </html>
